@@ -1,0 +1,92 @@
+
+body {
+
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    background: #e70dd5;
+
+}
+
+.current {
+    background: #fff url('./img/fire.gif') no-repeat center;
+    background-size: 4vw;
+    color: blue;
+}
+
+header#main-header {
+    text-align: center;
+    line-height: 1.3em;
+    border-top: blueviolet 2px dashed;
+    border-bottom: blueviolet 2px dashed;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+header#main-header div {
+    font-size: 1.3em;
+    font-family: Srisakdi, Sevillana, Sofia, Damion, 'Dancing Script', Engagement, 'La Belle Aurore', Parisienne, Satisfy, Seaweed, 'Aguafina Script', 'Alex Brush', Allura, Arizonia, 'Bad Script', 'Beth Ellen', Charm, Bilbo, Bonbon, 'Bilbo Swash Caps', Calligraffitti, Charmonman, 'Clicker Script', Condiment;
+    background: url('./img/flower007.gif') no-repeat;
+    background-size: 60%;
+    margin-left: 2vw;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: inherit;
+    
+    
+}
+
+nav#main-nav ul{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5em;
+    
+}
+
+nav#child-nav ul{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1.3vw;
+    list-style: none;
+    font-size: 1.4em;
+}
+
+main#main {
+    width: 90%;
+}
+main#main div.row div.col{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+main#main div.row div.col img {
+    width: 27%;
+    height: auto;
+    margin: 0;
+    padding: 0.5%;
+    white-space: 2;
+}
+
+div.row div.col img:hover {
+
+    cursor: pointer;
+}
+
+
+
+footer {
+    text-align: center;
+    font-size: 1.5em;
+    border-top: #870f97 8px double;
+    border-bottom: #870f97 2px dashed;
+    background: #6e0755;
+}
