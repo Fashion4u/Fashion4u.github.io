@@ -78,15 +78,19 @@ main#main div.row div.col{
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin: 0;
-    padding: 0;
+    padding:0;
     width: 100%;
+}
+
+main#main div.row div.col div{
+    padding-left: 2%;
+    padding-bottom: 5%;
 }
 main#main div.row div.col img {
     width: 100%;
     height: auto;
     margin: 0;
-    padding: 0.5%;
-    white-space: 2;
+    padding: 0;
 }
 
 div.row div.col img:hover {
